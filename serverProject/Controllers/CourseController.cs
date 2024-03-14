@@ -66,6 +66,7 @@ namespace serverProject.Controllers
             else
             {
                 c.lecturer = value.lecturer;
+                c.name = value.name;
                 c.start = value.start;
                 c.countOfLessons = value.countOfLessons;
                 c.category = value.category;
