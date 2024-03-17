@@ -11,10 +11,11 @@ namespace serverProject.Controllers
     {
         private static List<User> users = new List<User>
         {
-            new User { id = 1, name = "John Doe",      mail = "john@example.com", password = "password1" },
-            new User { id = 2, name = "Jane Smith",    mail = "jane@example.com", password = "password2" },
-            new User { id = 3, name = "Alice Johnson", mail = "alice@example.com",password = "password3" },
-            new User {id = 4, name = "Emily Davis",  mail = "emily@example.com", password = "password5"}
+              new User { id = 1, name = "John Smith", mail = "john@example.com", password = "password1" },
+        new User { id = 2, name = "Jane Doe", mail = "jane@example.com", password = "password2" },
+        new User { id = 3, name = "Alice Johnson", mail = "alice@example.com", password = "password3" },
+        new User { id = 4, name = "Bob Brown", mail = "bob@example.com", password = "password4" },
+        new User { id = 5, name = "Emily Davis", mail = "emily@example.com", password = "password5" }
         };
         private static int counter = 0;
         // GET: api/<UserController>
